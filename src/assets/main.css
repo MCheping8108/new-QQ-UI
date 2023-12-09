@@ -1,0 +1,105 @@
+.left-sidebar {
+  /* text-align: center; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #c7c8ca;
+  border-right: 1px solid #ccc;
+  z-index: 999;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  transition: width 0.3s ease;
+}
+
+.left-sidebar .button {
+  padding-top: 5px;
+}
+
+.left-sidebar button {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c7c8ca;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.left-sidebar button:hover {
+  background-color: #c0c1c3;
+  transform: 0.3s ease;
+}
+
+.center-sidebar {
+  /* position: fixed; */
+  flex: 1;
+  margin-left: 60px;
+  padding: 20px;
+}
+
+.center-sidebar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #0066cc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.textarea-box {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  resize: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.textarea-box textarea {
+  position: fixed;
+  width: 100%;
+  height: 500;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  resize: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  bottom: 0;
+  right: 0;
+}
+
+.image-class img{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 99999px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
